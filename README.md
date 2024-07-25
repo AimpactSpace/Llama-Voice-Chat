@@ -36,23 +36,19 @@ Create a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies:
 
 bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install Dependencies
 bash
-Copy code
 pip install -r requirements.txt
 Set Up Environment Variables
 Create a .env file in the root directory of the project and add your Groq API key:
 
 env
-Copy code
 GROQ_API_KEY=your_groq_api_key
 Usage
 Run the Application
 bash
-Copy code
 flask run
 By default, the application will be available at http://127.0.0.1:5000/.
 
@@ -64,7 +60,6 @@ Use the /transcribe endpoint to upload and transcribe audio files.
 Example using curl:
 
 bash
-Copy code
 curl -X POST -F 'file=@path_to_audio_file.wav' http://127.0.0.1:5000/transcribe
 Project Structure
 bash
@@ -84,7 +79,6 @@ License
 This project is licensed under the MIT License.
 
 vbnet
-Copy code
 
 ### Steps to Add the `README.md` File
 
@@ -98,5 +92,3 @@ Copy code
 
 3. **Commit the Changes**:
    - Provide a commit message like "Add README.md" and click the green "Commit new file" button.
-
-Once you've added the `README.md` file, it will be displayed on the main page of your repository, providing clear instructions and information about your project. If you need further modifications or have any questions, feel free to ask!
