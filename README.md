@@ -63,32 +63,16 @@ bash
 curl -X POST -F 'file=@path_to_audio_file.wav' http://127.0.0.1:5000/transcribe
 Project Structure
 bash
-Copy code
+
 Llama-Voice-Chat/
 ├── uploads/                    # Directory to store uploaded audio files
 ├── templates/
 │   └── index.html              # HTML template for the chat interface
-├── app.py                      # Main application file
+├── app.py                      # Main application file 
 ├── requirements.txt            # Project dependencies
 ├── .env                        # Environment variables
 └── README.md                   # Project documentation
-Contributing
+
+
+## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-##License
-This project is licensed under the MIT License.
-
-vbnet
-
-### Steps to Add the `README.md` File
-
-1. **Create the README.md File**:
-   - Go to your repository on GitHub.
-   - Click "Add file" > "Create new file."
-   - Name the file `README.md`.
-
-2. **Paste the Content**:
-   - Copy the above content and paste it into the editor.
-
-3. **Commit the Changes**:
-   - Provide a commit message like "Add README.md" and click the green "Commit new file" button.
