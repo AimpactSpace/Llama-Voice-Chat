@@ -1,0 +1,12 @@
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+ENV/
+.env
+
+# Ignore uploads directory for audio files
+uploads/
+
