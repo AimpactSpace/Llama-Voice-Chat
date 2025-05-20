@@ -68,7 +68,7 @@ Llama-Voice-Chat/
 ├── uploads/                    # Directory to store uploaded audio files
 ├── templates/
 │   └── index.html              # HTML template for the chat interface
-├── app.py                      # Main application file 
+├── Llama-Chat                      # Main application file 
 ├── requirements.txt            # Project dependencies
 ├── .env                        # Environment variables
 └── README.md                   # Project documentation
