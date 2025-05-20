@@ -48,8 +48,12 @@ env
 GROQ_API_KEY=your_groq_api_key
 Usage
 Run the Application
-bash
+
+```bash
+export FLASK_APP=app.py
 flask run
+```
+
 By default, the application will be available at http://127.0.0.1:5000/.
 
 Chat with the Model
@@ -59,19 +63,19 @@ Transcribe Audio Files
 Use the /transcribe endpoint to upload and transcribe audio files.
 Example using curl:
 
-bash
+```bash
 curl -X POST -F 'file=@path_to_audio_file.wav' http://127.0.0.1:5000/transcribe
-Project Structure
-bash
+```
 
+### Project Structure
+
+```text
 Llama-Voice-Chat/
-├── uploads/                    # Directory to store uploaded audio files
-├── templates/
-│   └── index.html              # HTML template for the chat interface
-├── app.py                      # Main application file 
-├── requirements.txt            # Project dependencies
-├── .env                        # Environment variables
-└── README.md                   # Project documentation
+├── app.py            # Flask application
+├── index.html        # HTML template for the chat interface
+├── requirements.txt  # Project dependencies
+└── README.md         # Project documentation
+```
 
 
 ## Contributing
