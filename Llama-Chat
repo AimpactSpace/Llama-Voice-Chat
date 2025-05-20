@@ -4,7 +4,8 @@ from datetime import datetime
 from groq import Groq
 from werkzeug.utils import secure_filename
 
-app = Flask(__name__)
+# Configure Flask to look for templates in the same directory as this file
+app = Flask(__name__, template_folder=os.path.dirname(os.path.abspath(__file__)))
 
 # Initialize the Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
